@@ -9,7 +9,7 @@ https://en.wikipedia.org/wiki/Bubble_sort
 It goes through and checks if a number in the list is higher than the next number. If so, it switches the two.
 It does this until all the numbers are in the right order.
 
-Do not use the .sort or the .sorted method to do this.
+Do not use the .sort or the .sorted method to do this. 
 
 
 ```python
