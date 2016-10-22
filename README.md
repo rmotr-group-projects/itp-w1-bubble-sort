@@ -1,8 +1,7 @@
 # [itp-w1] Bubble Sort
 
-This project is to reproduce a sorting algorithm called a "bubble sort" using the control flow.
-You will need to use nesting to achieve this:
-
+This project is to reproduce a sorting algorithm called a "bubble sort" using simple control flow structures.
+You will need to use nested loops to achieve this:
 
 Read about bubble sort here:
 https://en.wikipedia.org/wiki/Bubble_sort
