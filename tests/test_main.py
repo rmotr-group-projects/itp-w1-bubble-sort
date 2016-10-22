@@ -15,4 +15,4 @@ class TestBubbleSort(unittest.TestCase):
         self.assertEqual(bubble_sort([2, 1]) , [1, 2])
 
     def test_multiple_elements(self):
-        self.assertEqual(bubble_sort([1, 3, 2, 6, 5]), [1, 2, 3, 5, 6])
+        self.assertEqual(bubble_sort([5, 3, 2, 6, 1]), [1, 2, 3, 5, 6])
