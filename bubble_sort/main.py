@@ -1,3 +1,6 @@
+#you need to pass the test so that travis doesnt get mad
+#all of your functions are returning none
+#you should RETURN, not only print (dont need to print at all if you dont wanna)
 def bubble_sort(list_of_numbers):
     n = len(list_of_numbers)
     swapped = True
@@ -8,9 +11,9 @@ def bubble_sort(list_of_numbers):
                 list_of_numbers[i-1], list_of_numbers[i] = list_of_numbers[i]\
                 , list_of_numbers[i-1]
                 swapped = True
-    print(list_of_numbers)
+    return list_of_numbers
 
-
+#this here is not important
 if __name__ == '__main__':
     print(bubble_sort([9, 1, 3, 11, 7, 2, 42, 111]))
     
