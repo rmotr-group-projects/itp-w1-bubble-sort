@@ -2,7 +2,12 @@
 
 
 def bubble_sort(list_of_numbers):
-    pass
+    number = list(list_of_numbers)
+    for i in range(len(number)):
+        for j in range(i + 1, len(number)):
+            if list_of_numbers[j] < list_of_numbers[i]:
+                list_of_numbers[j], list_of_numbers[i] = list_of_numbers[i], list_of_numbers[j]
+    return list_of_numbers
 
 
 if __name__ == '__main__':
